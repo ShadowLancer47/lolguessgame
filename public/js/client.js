@@ -187,55 +187,52 @@ function renderGameArea(data) {
         const imgUrl = champ.loadingImg || `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${currentPlayer.targetChampion}_0.jpg`;
 
         // Style constants moved back
-        const boxStyle = "background:rgba(0,0,0,0.4); padding:8px; border-radius:6px; text-align:center; border: 1px solid rgba(200, 170, 110, 0.2);";
-        const labelStyle = "color:#aaa; font-size:0.8rem; margin-bottom:2px; text-transform: uppercase; letter-spacing:1px;";
-        const valStyle = "color:var(--hex-gold); font-weight:bold; font-size: 1rem;";
-        const whiteVal = "color:#fff; font-size: 0.95rem;";
-
-        // Hints HTML - Simple Stacked Layout
+        // Hints HTML - Responsive Class-based Layout
         let hintsHtml = `
-            <div style="${boxStyle} margin-bottom:8px;">
-                <div style="${labelStyle}">Unvan</div>
-                <div style="${valStyle}">${champ.title || '???'}</div>
+            <div class="hint-box">
+                <div class="hint-label">Unvan</div>
+                <div class="hint-val">${champ.title || '???'}</div>
             </div>
             
-            <div style="${boxStyle} margin-bottom:8px;">
-                <div style="${labelStyle}">Roller</div>
-                <div style="${whiteVal}">${(champ.roles && champ.roles.length > 0) ? champ.roles.join(', ') : 'Bilinmiyor'}</div>
+            <div class="hint-box">
+                <div class="hint-label">Roller</div>
+                <div class="hint-val-white">${(champ.roles && champ.roles.length > 0) ? champ.roles.join(', ') : 'Bilinmiyor'}</div>
             </div>
 
-            <div style="${boxStyle} margin-bottom:8px;">
-                <div style="${labelStyle}">Kaynak</div>
-                <div style="${whiteVal}">${champ.partype || '???'}</div>
+            <div class="hint-box">
+                <div class="hint-label">Kaynak</div>
+                <div class="hint-val-white">${champ.partype || '???'}</div>
             </div>
 
-            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-bottom:8px;">
-                <div style="${boxStyle}">
-                    <div style="${labelStyle}">Bölge</div>
-                    <div style="${whiteVal}">${champ.region || 'Runeterra'}</div>
+            <div class="hint-grid">
+                <div class="hint-box">
+                    <div class="hint-label">Bölge</div>
+                    <div class="hint-val-white">${champ.region || 'Runeterra'}</div>
                 </div>
-                 <div style="${boxStyle}">
-                    <div style="${labelStyle}">Yıl</div>
-                    <div style="${whiteVal}">${champ.releaseYear || '???'}</div>
+                 <div class="hint-box">
+                    <div class="hint-label">Yıl</div>
+                    <div class="hint-val-white">${champ.releaseYear || '???'}</div>
                 </div>
             </div>
             
-            <div style="${boxStyle}">
-                <div style="${labelStyle}">Cinsiyet</div>
-                <div style="${whiteVal}">${champ.gender || 'Diğer'}</div>
+            <div class="hint-box">
+                <div class="hint-label">Cinsiyet</div>
+                <div class="hint-val-white">${champ.gender || 'Diğer'}</div>
             </div>
         `;
 
         dom.gameArea.innerHTML = `
         <div class="big-text">Sıra ${currentPlayer.name} adlı oyuncuda</div>
-        <div style="display: flex; gap: 20px; align-items: start; justify-content: center;">
-            <div style="width: 250px; display:flex; flex-direction:column;">
-                <img src="${imgUrl}" class="champ-img" style="width:100%; border-radius:10px; object-fit:cover;">
-                <h2 style="text-align:center; margin-top:10px; margin-bottom:0;">${champ.name}</h2>
+        <div class="game-container">
+            <div class="champ-column">
+                <div class="champ-img-container">
+                    <img src="${imgUrl}" class="champ-img">
+                </div>
+                <h2 class="champ-name">${champ.name}</h2>
             </div>
-            <div style="width: 250px; display:flex; flex-direction:column; gap:5px;">
-                <div style="color:var(--hex-blue); font-weight:bold; margin-bottom:5px; text-align:center;">İPUÇLARI (Sadece Sana)</div>
-                ${hintsHtml}
+            <div class="hints-column">
+                <div class="hints-title">İPUÇLARI (Sadece Sana)</div>
+                 ${hintsHtml}
             </div>
         </div>
         <p class="instruction-text">Sorulara Cevap Ver...</p>

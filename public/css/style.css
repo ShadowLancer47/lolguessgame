@@ -285,3 +285,144 @@ img.champ-img {
     background: var(--hex-gold-dark);
     border-radius: 3px;
 }
+
+/* --- Responsive Game Area --- */
+
+.game-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.champ-column {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.champ-img-container {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.champ-img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
+
+.champ-name {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.hints-column {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.hints-title {
+    color: var(--hex-blue);
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.hint-box {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid rgba(200, 170, 110, 0.2);
+    margin-bottom: 8px;
+}
+
+.hint-label {
+    color: #aaa;
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hint-val {
+    color: var(--hex-gold);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.hint-val-white {
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.hint-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .game-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .champ-column,
+    .hints-column {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        /* Force horizontal centering */
+        align-items: center;
+        /* Center children like the image */
+    }
+
+    .champ-img {
+        max-height: 400px;
+        /* Prevent massive images on tall phones */
+    }
+}
+/* Layout Wrappers */
+.row-layout {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center; /* Center Wrappers */
+}
+
+.game-wrapper {
+    flex: 2;
+    min-width: 300px;
+    /* Ensure it centers itself in column mode */
+    margin: 0 auto;
+}
+
+.score-wrapper {
+    flex: 1;
+     min-width: 250px;
+}
+
+@media (max-width: 768px) {
+    .row-layout {
+        flex-direction: column;
+        align-items: center; /* Center wrappers horizontally */
+    }
+    
+    .game-wrapper, .score-wrapper {
+        width: 100%;
+        max-width: 450px; /* Optional cap */
+    }
+}
+

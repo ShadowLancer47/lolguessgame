@@ -83,10 +83,10 @@
 
         <!-- OYUN EKRANI -->
         <div id="gameScreen" class="screen">
-            <div class="row" style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <div class="row row-layout">
 
                 <!-- SOL: Oyun Alanı -->
-                <div style="flex: 2; min-width: 300px;">
+                <div class="game-wrapper">
                     <div style="text-align: right; margin-bottom: 5px; color: #888;">
                         Tur: <span id="roundIndicator">1/3</span>
                     </div>
@@ -96,7 +96,7 @@
                 </div>
 
                 <!-- SAĞ: Skor Tablosu -->
-                <div style="flex: 1; min-width: 250px;">
+                <div class="score-wrapper">
                     <div class="hex-panel">
                         <h3 style="text-align: center;">Puan Durumu</h3>
                         <div id="scoreList"></div>
