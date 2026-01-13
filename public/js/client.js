@@ -116,11 +116,11 @@ function startNextRound() {
     socket.emit('startNextRound', { lobbyId: currentLobbyId });
 }
 
-function passTurn() {
+function sendPass() {
     socket.emit('passTurn');
 }
 
-function makeGuess() {
+function sendGuess() {
     const input = document.getElementById('guessInput');
     if (input && input.value) {
         socket.emit('makeGuess', input.value.trim());
@@ -149,8 +149,8 @@ function updateHostControls() {
 
 function renderLobby(players) {
     dom.lobbyList.innerHTML = players.map(p => `
-        <div class="player-row" style="justify-content: center;">
-            <span style="font-size: 1.2rem;">
+        <div class="player-row" style="justify-content: center; text-align: center;">
+            <span style="font-size: 1.2rem; display: block; width: 100%;">
                ${p.isHost ? '👑' : ''} ${p.name}
             </span>
         </div>
@@ -186,12 +186,13 @@ function renderGameArea(data) {
         const champ = currentPlayer.targetDetails || { name: currentPlayer.targetChampion }; // Fallback
         const imgUrl = champ.loadingImg || `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${currentPlayer.targetChampion}_0.jpg`;
 
-        // Prepare Hints HTML - Centered & Grid
+        // Style constants moved back
         const boxStyle = "background:rgba(0,0,0,0.4); padding:8px; border-radius:6px; text-align:center; border: 1px solid rgba(200, 170, 110, 0.2);";
         const labelStyle = "color:#aaa; font-size:0.8rem; margin-bottom:2px; text-transform: uppercase; letter-spacing:1px;";
         const valStyle = "color:var(--hex-gold); font-weight:bold; font-size: 1rem;";
         const whiteVal = "color:#fff; font-size: 0.95rem;";
 
+        // Hints HTML - Simple Stacked Layout
         let hintsHtml = `
             <div style="${boxStyle} margin-bottom:8px;">
                 <div style="${labelStyle}">Unvan</div>
@@ -200,7 +201,7 @@ function renderGameArea(data) {
             
             <div style="${boxStyle} margin-bottom:8px;">
                 <div style="${labelStyle}">Roller</div>
-                <div style="${whiteVal}">${(champ.roles || []).join(', ')}</div>
+                <div style="${whiteVal}">${(champ.roles && champ.roles.length > 0) ? champ.roles.join(', ') : 'Bilinmiyor'}</div>
             </div>
 
             <div style="${boxStyle} margin-bottom:8px;">
@@ -228,12 +229,12 @@ function renderGameArea(data) {
         dom.gameArea.innerHTML = `
         <div class="big-text">Sıra ${currentPlayer.name} adlı oyuncuda</div>
         <div style="display: flex; gap: 20px; align-items: start; justify-content: center;">
-            <div style="width: 200px;">
-                <img src="${imgUrl}" class="champ-img" style="width:100%; border-radius:10px;">
-                <h2>${champ.name}</h2>
+            <div style="width: 250px; display:flex; flex-direction:column;">
+                <img src="${imgUrl}" class="champ-img" style="width:100%; border-radius:10px; object-fit:cover;">
+                <h2 style="text-align:center; margin-top:10px; margin-bottom:0;">${champ.name}</h2>
             </div>
             <div style="width: 250px; display:flex; flex-direction:column; gap:5px;">
-                <div style="color:var(--hex-blue); font-weight:bold; margin-bottom:5px;">İPUÇLARI (Sadece Sana)</div>
+                <div style="color:var(--hex-blue); font-weight:bold; margin-bottom:5px; text-align:center;">İPUÇLARI (Sadece Sana)</div>
                 ${hintsHtml}
             </div>
         </div>
@@ -243,19 +244,17 @@ function renderGameArea(data) {
 }
 
 function updateScoreboard(players, currentId) {
-    // Sort by Total Score for better overview? Or just list? 
-    // Usually list order is static to track turns easier, but let's just list
     dom.scoreList.innerHTML = players.map(p => {
         let classes = "player-row";
         if (p.id === currentId) classes += " active-turn";
         if (p.isFinished) classes += " finished";
 
         return `
-        <div class="${classes}">
-            <span>${p.name}</span>
-            <div style="text-align:right">
-               <div style="font-size:0.8rem; color:#888;">Bu Tur: ${p.score}</div>
-               <div style="color:var(--hex-gold); font-weight:bold;">Top: ${p.totalScore}</div>
+        <div class="${classes}" style="display:flex; align-items:center;">
+            <span style="flex-grow:1; text-align:left; padding-left:10px; font-weight:bold;">${p.name}</span>
+            <div style="text-align:right; min-width:80px; font-size:0.85rem;">
+               <div style="color:#bfbfbf;">Bu Tur: ${p.score}</div>
+               <div style="color:var(--hex-gold);">Top: ${p.totalScore}</div>
             </div>
         </div>
         `;
@@ -370,5 +369,5 @@ function showNotification(msg) {
 window.joinGame = joinGame;
 window.startGame = startGame;
 window.startNextRound = startNextRound;
-window.passTurn = passTurn;
-window.makeGuess = makeGuess;
+window.sendPass = sendPass;
+window.sendGuess = sendGuess;

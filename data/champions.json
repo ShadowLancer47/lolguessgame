@@ -3,6 +3,9 @@
     "id": "Aatrox",
     "name": "Aatrox",
     "title": "the Darkin Blade",
+    "roles": [
+      "Top"
+    ],
     "partype": "BLOOD_WELL",
     "region": "Runeterra",
     "releaseYear": "2013",
@@ -15,6 +18,9 @@
     "id": "Ahri",
     "name": "Ahri",
     "title": "the Nine-Tailed Fox",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2011",
@@ -27,6 +33,10 @@
     "id": "Akali",
     "name": "Akali",
     "title": "the Rogue Assassin",
+    "roles": [
+      "Top",
+      "Mid"
+    ],
     "partype": "ENERGY",
     "region": "ionia",
     "releaseYear": "2010",
@@ -39,6 +49,9 @@
     "id": "Akshan",
     "name": "Akshan",
     "title": "the Rogue Sentinel",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "shurima",
     "releaseYear": "2021",
@@ -51,6 +64,9 @@
     "id": "Alistar",
     "name": "Alistar",
     "title": "the Minotaur",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2009",
@@ -63,6 +79,9 @@
     "id": "Ambessa",
     "name": "Ambessa",
     "title": "Matriarch of War",
+    "roles": [
+      "Mid"
+    ],
     "partype": "ENERGY",
     "region": "noxus",
     "releaseYear": "2024",
@@ -75,6 +94,9 @@
     "id": "Amumu",
     "name": "Amumu",
     "title": "the Sad Mummy",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "shurima",
     "releaseYear": "2009",
@@ -87,6 +109,9 @@
     "id": "Anivia",
     "name": "Anivia",
     "title": "the Cryophoenix",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2009",
@@ -99,6 +124,9 @@
     "id": "Annie",
     "name": "Annie",
     "title": "the Dark Child",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2009",
@@ -111,6 +139,9 @@
     "id": "Aphelios",
     "name": "Aphelios",
     "title": "the Weapon of the Faithful",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "mount-targon",
     "releaseYear": "2019",
@@ -123,6 +154,10 @@
     "id": "Ashe",
     "name": "Ashe",
     "title": "the Frost Archer",
+    "roles": [
+      "Bot",
+      "Support"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2009",
@@ -135,6 +170,9 @@
     "id": "AurelionSol",
     "name": "Aurelion Sol",
     "title": "The Star Forger",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2016",
@@ -147,6 +185,10 @@
     "id": "Aurora",
     "name": "Aurora",
     "title": "the Witch Between Worlds",
+    "roles": [
+      "Top",
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2024",
@@ -159,6 +201,9 @@
     "id": "Azir",
     "name": "Azir",
     "title": "the Emperor of the Sands",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "shurima",
     "releaseYear": "2014",
@@ -171,6 +216,9 @@
     "id": "Bard",
     "name": "Bard",
     "title": "the Wandering Caretaker",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2015",
@@ -183,6 +231,9 @@
     "id": "Belveth",
     "name": "Bel'Veth",
     "title": "the Empress of the Void",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "NONE",
     "region": "void",
     "releaseYear": "2022",
@@ -195,6 +246,9 @@
     "id": "Blitzcrank",
     "name": "Blitzcrank",
     "title": "the Great Steam Golem",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2009",
@@ -207,6 +261,10 @@
     "id": "Brand",
     "name": "Brand",
     "title": "the Burning Vengeance",
+    "roles": [
+      "Jungle",
+      "Support"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2011",
@@ -219,6 +277,9 @@
     "id": "Braum",
     "name": "Braum",
     "title": "the Heart of the Freljord",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2014",
@@ -231,6 +292,9 @@
     "id": "Briar",
     "name": "Briar",
     "title": "the Restrained Hunger",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "FRENZY",
     "region": "noxus",
     "releaseYear": "2023",
@@ -243,6 +307,9 @@
     "id": "Caitlyn",
     "name": "Caitlyn",
     "title": "the Sheriff of Piltover",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "piltover",
     "releaseYear": "2011",
@@ -255,6 +322,9 @@
     "id": "Camille",
     "name": "Camille",
     "title": "the Steel Shadow",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "piltover",
     "releaseYear": "2016",
@@ -267,6 +337,9 @@
     "id": "Cassiopeia",
     "name": "Cassiopeia",
     "title": "the Serpent's Embrace",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "noxus",
     "releaseYear": "2010",
@@ -279,6 +352,9 @@
     "id": "Chogath",
     "name": "Cho'Gath",
     "title": "the Terror of the Void",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "void",
     "releaseYear": "2009",
@@ -291,6 +367,9 @@
     "id": "Corki",
     "name": "Corki",
     "title": "the Daring Bombardier",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "bandle-city",
     "releaseYear": "2009",
@@ -303,6 +382,9 @@
     "id": "Darius",
     "name": "Darius",
     "title": "the Hand of Noxus",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "noxus",
     "releaseYear": "2012",
@@ -315,6 +397,10 @@
     "id": "Diana",
     "name": "Diana",
     "title": "Scorn of the Moon",
+    "roles": [
+      "Jungle",
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "mount-targon",
     "releaseYear": "2012",
@@ -327,6 +413,9 @@
     "id": "DrMundo",
     "name": "Dr. Mundo",
     "title": "the Madman of Zaun",
+    "roles": [
+      "Top"
+    ],
     "partype": "HEALTH",
     "region": "zaun",
     "releaseYear": "2009",
@@ -339,6 +428,9 @@
     "id": "Draven",
     "name": "Draven",
     "title": "the Glorious Executioner",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "noxus",
     "releaseYear": "2012",
@@ -351,6 +443,10 @@
     "id": "Ekko",
     "name": "Ekko",
     "title": "the Boy Who Shattered Time",
+    "roles": [
+      "Jungle",
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2015",
@@ -363,6 +459,9 @@
     "id": "Elise",
     "name": "Elise",
     "title": "the Spider Queen",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "shadow-isles",
     "releaseYear": "2012",
@@ -375,6 +474,9 @@
     "id": "Evelynn",
     "name": "Evelynn",
     "title": "Agony's Embrace",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2009",
@@ -387,6 +489,9 @@
     "id": "Ezreal",
     "name": "Ezreal",
     "title": "the Prodigal Explorer",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "piltover",
     "releaseYear": "2010",
@@ -399,6 +504,9 @@
     "id": "Fiddlesticks",
     "name": "Fiddlesticks",
     "title": "the Ancient Fear",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2009",
@@ -411,6 +519,9 @@
     "id": "Fiora",
     "name": "Fiora",
     "title": "the Grand Duelist",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2012",
@@ -423,6 +534,9 @@
     "id": "Fizz",
     "name": "Fizz",
     "title": "the Tidal Trickster",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2011",
@@ -435,6 +549,9 @@
     "id": "Galio",
     "name": "Galio",
     "title": "the Colossus",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2010",
@@ -447,6 +564,9 @@
     "id": "Gangplank",
     "name": "Gangplank",
     "title": "the Saltwater Scourge",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "bilgewater",
     "releaseYear": "2009",
@@ -459,6 +579,9 @@
     "id": "Garen",
     "name": "Garen",
     "title": "The Might of Demacia",
+    "roles": [
+      "Top"
+    ],
     "partype": "NONE",
     "region": "demacia",
     "releaseYear": "2010",
@@ -471,6 +594,9 @@
     "id": "Gnar",
     "name": "Gnar",
     "title": "the Missing Link",
+    "roles": [
+      "Top"
+    ],
     "partype": "RAGE",
     "region": "freljord",
     "releaseYear": "2014",
@@ -483,6 +609,9 @@
     "id": "Gragas",
     "name": "Gragas",
     "title": "the Rabble Rouser",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2010",
@@ -495,6 +624,9 @@
     "id": "Graves",
     "name": "Graves",
     "title": "the Outlaw",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "bilgewater",
     "releaseYear": "2011",
@@ -507,6 +639,9 @@
     "id": "Gwen",
     "name": "Gwen",
     "title": "The Hallowed Seamstress",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "shadow-isles",
     "releaseYear": "2021",
@@ -519,6 +654,9 @@
     "id": "Hecarim",
     "name": "Hecarim",
     "title": "the Shadow of War",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "shadow-isles",
     "releaseYear": "2012",
@@ -531,6 +669,9 @@
     "id": "Heimerdinger",
     "name": "Heimerdinger",
     "title": "the Revered Inventor",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "piltover",
     "releaseYear": "2009",
@@ -543,6 +684,10 @@
     "id": "Hwei",
     "name": "Hwei",
     "title": "the Visionary",
+    "roles": [
+      "Mid",
+      "Support"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2023",
@@ -555,6 +700,9 @@
     "id": "Illaoi",
     "name": "Illaoi",
     "title": "the Kraken Priestess",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "bilgewater",
     "releaseYear": "2015",
@@ -567,6 +715,10 @@
     "id": "Irelia",
     "name": "Irelia",
     "title": "the Blade Dancer",
+    "roles": [
+      "Top",
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2010",
@@ -579,6 +731,9 @@
     "id": "Ivern",
     "name": "Ivern",
     "title": "the Green Father",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2016",
@@ -591,6 +746,9 @@
     "id": "Janna",
     "name": "Janna",
     "title": "the Storm's Fury",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2009",
@@ -603,6 +761,9 @@
     "id": "JarvanIV",
     "name": "Jarvan IV",
     "title": "the Exemplar of Demacia",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2011",
@@ -615,6 +776,10 @@
     "id": "Jax",
     "name": "Jax",
     "title": "Grandmaster at Arms",
+    "roles": [
+      "Top",
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2009",
@@ -627,6 +792,9 @@
     "id": "Jayce",
     "name": "Jayce",
     "title": "the Defender of Tomorrow",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "piltover",
     "releaseYear": "2012",
@@ -639,6 +807,9 @@
     "id": "Jhin",
     "name": "Jhin",
     "title": "the Virtuoso",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2016",
@@ -651,6 +822,9 @@
     "id": "Jinx",
     "name": "Jinx",
     "title": "the Loose Cannon",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2013",
@@ -663,6 +837,9 @@
     "id": "KSante",
     "name": "K'Sante",
     "title": "the Pride of Nazumah",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "shurima",
     "releaseYear": "2022",
@@ -675,6 +852,9 @@
     "id": "Kaisa",
     "name": "Kai'Sa",
     "title": "Daughter of the Void",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "void",
     "releaseYear": "2018",
@@ -687,6 +867,9 @@
     "id": "Kalista",
     "name": "Kalista",
     "title": "the Spear of Vengeance",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "shadow-isles",
     "releaseYear": "2014",
@@ -699,6 +882,10 @@
     "id": "Karma",
     "name": "Karma",
     "title": "the Enlightened One",
+    "roles": [
+      "Mid",
+      "Support"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2011",
@@ -711,6 +898,9 @@
     "id": "Karthus",
     "name": "Karthus",
     "title": "the Deathsinger",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "shadow-isles",
     "releaseYear": "2009",
@@ -723,6 +913,9 @@
     "id": "Kassadin",
     "name": "Kassadin",
     "title": "the Void Walker",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "void",
     "releaseYear": "2009",
@@ -735,6 +928,9 @@
     "id": "Katarina",
     "name": "Katarina",
     "title": "the Sinister Blade",
+    "roles": [
+      "Mid"
+    ],
     "partype": "NONE",
     "region": "noxus",
     "releaseYear": "2009",
@@ -747,6 +943,9 @@
     "id": "Kayle",
     "name": "Kayle",
     "title": "the Righteous",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2009",
@@ -759,6 +958,9 @@
     "id": "Kayn",
     "name": "Kayn",
     "title": "the Shadow Reaper",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2017",
@@ -771,6 +973,9 @@
     "id": "Kennen",
     "name": "Kennen",
     "title": "the Heart of the Tempest",
+    "roles": [
+      "Top"
+    ],
     "partype": "ENERGY",
     "region": "ionia",
     "releaseYear": "2010",
@@ -783,6 +988,9 @@
     "id": "Khazix",
     "name": "Kha'Zix",
     "title": "the Voidreaver",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "void",
     "releaseYear": "2012",
@@ -795,6 +1003,9 @@
     "id": "Kindred",
     "name": "Kindred",
     "title": "The Eternal Hunters",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2015",
@@ -807,6 +1018,9 @@
     "id": "Kled",
     "name": "Kled",
     "title": "the Cantankerous Cavalier",
+    "roles": [
+      "Top"
+    ],
     "partype": "COURAGE",
     "region": "noxus",
     "releaseYear": "2016",
@@ -819,6 +1033,9 @@
     "id": "KogMaw",
     "name": "Kog'Maw",
     "title": "the Mouth of the Abyss",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "void",
     "releaseYear": "2010",
@@ -831,6 +1048,9 @@
     "id": "Leblanc",
     "name": "LeBlanc",
     "title": "the Deceiver",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "noxus",
     "releaseYear": "2010",
@@ -843,6 +1063,9 @@
     "id": "LeeSin",
     "name": "Lee Sin",
     "title": "the Blind Monk",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "ENERGY",
     "region": "ionia",
     "releaseYear": "2011",
@@ -855,6 +1078,9 @@
     "id": "Leona",
     "name": "Leona",
     "title": "the Radiant Dawn",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "mount-targon",
     "releaseYear": "2011",
@@ -867,6 +1093,9 @@
     "id": "Lillia",
     "name": "Lillia",
     "title": "the Bashful Bloom",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2020",
@@ -879,6 +1108,9 @@
     "id": "Lissandra",
     "name": "Lissandra",
     "title": "the Ice Witch",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2013",
@@ -891,6 +1123,9 @@
     "id": "Lucian",
     "name": "Lucian",
     "title": "the Purifier",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2013",
@@ -903,6 +1138,9 @@
     "id": "Lulu",
     "name": "Lulu",
     "title": "the Fae Sorceress",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "bandle-city",
     "releaseYear": "2012",
@@ -915,6 +1153,10 @@
     "id": "Lux",
     "name": "Lux",
     "title": "the Lady of Luminosity",
+    "roles": [
+      "Mid",
+      "Support"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2010",
@@ -927,6 +1169,9 @@
     "id": "Malphite",
     "name": "Malphite",
     "title": "Shard of the Monolith",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "ixtal",
     "releaseYear": "2009",
@@ -939,6 +1184,9 @@
     "id": "Malzahar",
     "name": "Malzahar",
     "title": "the Prophet of the Void",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "void",
     "releaseYear": "2010",
@@ -951,6 +1199,9 @@
     "id": "Maokai",
     "name": "Maokai",
     "title": "the Twisted Treant",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "shadow-isles",
     "releaseYear": "2011",
@@ -963,6 +1214,9 @@
     "id": "MasterYi",
     "name": "Master Yi",
     "title": "the Wuju Bladesman",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2009",
@@ -975,6 +1229,9 @@
     "id": "Mel",
     "name": "Mel",
     "title": "the Soul's Reflection",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "noxus",
     "releaseYear": "2025",
@@ -987,6 +1244,9 @@
     "id": "Milio",
     "name": "Milio",
     "title": "The Gentle Flame",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "ixtal",
     "releaseYear": "2023",
@@ -999,6 +1259,9 @@
     "id": "MissFortune",
     "name": "Miss Fortune",
     "title": "the Bounty Hunter",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "bilgewater",
     "releaseYear": "2010",
@@ -1011,6 +1274,9 @@
     "id": "Mordekaiser",
     "name": "Mordekaiser",
     "title": "the Iron Revenant",
+    "roles": [
+      "Top"
+    ],
     "partype": "SHIELD",
     "region": "noxus",
     "releaseYear": "2010",
@@ -1023,6 +1289,9 @@
     "id": "Morgana",
     "name": "Morgana",
     "title": "the Fallen",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2009",
@@ -1035,6 +1304,9 @@
     "id": "Naafiri",
     "name": "Naafiri",
     "title": "the Hound of a Hundred Bites",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "shurima",
     "releaseYear": "2023",
@@ -1047,6 +1319,9 @@
     "id": "Nami",
     "name": "Nami",
     "title": "the Tidecaller",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2012",
@@ -1059,6 +1334,9 @@
     "id": "Nasus",
     "name": "Nasus",
     "title": "the Curator of the Sands",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "shurima",
     "releaseYear": "2009",
@@ -1071,6 +1349,9 @@
     "id": "Nautilus",
     "name": "Nautilus",
     "title": "the Titan of the Depths",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "bilgewater",
     "releaseYear": "2012",
@@ -1083,6 +1364,10 @@
     "id": "Neeko",
     "name": "Neeko",
     "title": "the Curious Chameleon",
+    "roles": [
+      "Mid",
+      "Support"
+    ],
     "partype": "MANA",
     "region": "ixtal",
     "releaseYear": "2018",
@@ -1095,6 +1380,9 @@
     "id": "Nidalee",
     "name": "Nidalee",
     "title": "the Bestial Huntress",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "ixtal",
     "releaseYear": "2009",
@@ -1107,6 +1395,9 @@
     "id": "Nilah",
     "name": "Nilah",
     "title": "the Joy Unbound",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "bilgewater",
     "releaseYear": "2022",
@@ -1119,6 +1410,9 @@
     "id": "Nocturne",
     "name": "Nocturne",
     "title": "the Eternal Nightmare",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2011",
@@ -1131,6 +1425,9 @@
     "id": "Nunu",
     "name": "Nunu & Willump",
     "title": "the Boy and His Yeti",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2009",
@@ -1143,6 +1440,9 @@
     "id": "Olaf",
     "name": "Olaf",
     "title": "the Berserker",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2010",
@@ -1155,6 +1455,9 @@
     "id": "Orianna",
     "name": "Orianna",
     "title": "the Lady of Clockwork",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "piltover",
     "releaseYear": "2011",
@@ -1167,6 +1470,9 @@
     "id": "Ornn",
     "name": "Ornn",
     "title": "The Fire below the Mountain",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2017",
@@ -1179,6 +1485,10 @@
     "id": "Pantheon",
     "name": "Pantheon",
     "title": "the Unbreakable Spear",
+    "roles": [
+      "Top",
+      "Support"
+    ],
     "partype": "MANA",
     "region": "mount-targon",
     "releaseYear": "2010",
@@ -1191,6 +1501,10 @@
     "id": "Poppy",
     "name": "Poppy",
     "title": "Keeper of the Hammer",
+    "roles": [
+      "Top",
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2010",
@@ -1203,6 +1517,9 @@
     "id": "Pyke",
     "name": "Pyke",
     "title": "the Bloodharbor Ripper",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "bilgewater",
     "releaseYear": "2018",
@@ -1215,6 +1532,9 @@
     "id": "Qiyana",
     "name": "Qiyana",
     "title": "Empress of the Elements",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "ixtal",
     "releaseYear": "2019",
@@ -1227,6 +1547,9 @@
     "id": "Quinn",
     "name": "Quinn",
     "title": "Demacia's Wings",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2013",
@@ -1239,6 +1562,9 @@
     "id": "Rakan",
     "name": "Rakan",
     "title": "The Charmer",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2017",
@@ -1251,6 +1577,9 @@
     "id": "Rammus",
     "name": "Rammus",
     "title": "the Armordillo",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "shurima",
     "releaseYear": "2009",
@@ -1263,6 +1592,9 @@
     "id": "RekSai",
     "name": "Rek'Sai",
     "title": "the Void Burrower",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "RAGE",
     "region": "void",
     "releaseYear": "2014",
@@ -1275,6 +1607,9 @@
     "id": "Rell",
     "name": "Rell",
     "title": "the Iron Maiden",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "noxus",
     "releaseYear": "2020",
@@ -1287,6 +1622,9 @@
     "id": "Renata",
     "name": "Renata Glasc",
     "title": "the Chem-Baroness",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2022",
@@ -1299,6 +1637,9 @@
     "id": "Renekton",
     "name": "Renekton",
     "title": "the Butcher of the Sands",
+    "roles": [
+      "Top"
+    ],
     "partype": "FURY",
     "region": "shurima",
     "releaseYear": "2011",
@@ -1311,6 +1652,9 @@
     "id": "Rengar",
     "name": "Rengar",
     "title": "the Pridestalker",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "FEROCITY",
     "region": "ixtal",
     "releaseYear": "2012",
@@ -1323,6 +1667,9 @@
     "id": "Riven",
     "name": "Riven",
     "title": "the Exile",
+    "roles": [
+      "Top"
+    ],
     "partype": "NONE",
     "region": "noxus",
     "releaseYear": "2011",
@@ -1335,6 +1682,9 @@
     "id": "Rumble",
     "name": "Rumble",
     "title": "the Mechanized Menace",
+    "roles": [
+      "Top"
+    ],
     "partype": "HEAT",
     "region": "bandle-city",
     "releaseYear": "2011",
@@ -1347,6 +1697,9 @@
     "id": "Ryze",
     "name": "Ryze",
     "title": "the Rune Mage",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2009",
@@ -1359,6 +1712,9 @@
     "id": "Samira",
     "name": "Samira",
     "title": "the Desert Rose",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "noxus",
     "releaseYear": "2020",
@@ -1371,6 +1727,9 @@
     "id": "Sejuani",
     "name": "Sejuani",
     "title": "Fury of the North",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2012",
@@ -1383,6 +1742,10 @@
     "id": "Senna",
     "name": "Senna",
     "title": "the Redeemer",
+    "roles": [
+      "Bot",
+      "Support"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2019",
@@ -1395,6 +1758,10 @@
     "id": "Seraphine",
     "name": "Seraphine",
     "title": "the Starry-Eyed Songstress",
+    "roles": [
+      "Bot",
+      "Support"
+    ],
     "partype": "MANA",
     "region": "piltover",
     "releaseYear": "2020",
@@ -1407,6 +1774,9 @@
     "id": "Sett",
     "name": "Sett",
     "title": "the Boss",
+    "roles": [
+      "Top"
+    ],
     "partype": "GRIT",
     "region": "ionia",
     "releaseYear": "2020",
@@ -1419,6 +1789,9 @@
     "id": "Shaco",
     "name": "Shaco",
     "title": "the Demon Jester",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2009",
@@ -1431,6 +1804,9 @@
     "id": "Shen",
     "name": "Shen",
     "title": "the Eye of Twilight",
+    "roles": [
+      "Top"
+    ],
     "partype": "ENERGY",
     "region": "ionia",
     "releaseYear": "2010",
@@ -1443,6 +1819,9 @@
     "id": "Shyvana",
     "name": "Shyvana",
     "title": "the Half-Dragon",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "FURY",
     "region": "demacia",
     "releaseYear": "2011",
@@ -1455,6 +1834,9 @@
     "id": "Singed",
     "name": "Singed",
     "title": "the Mad Chemist",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2009",
@@ -1467,6 +1849,9 @@
     "id": "Sion",
     "name": "Sion",
     "title": "The Undead Juggernaut",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "noxus",
     "releaseYear": "2009",
@@ -1479,6 +1864,9 @@
     "id": "Sivir",
     "name": "Sivir",
     "title": "the Battle Mistress",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "shurima",
     "releaseYear": "2009",
@@ -1491,6 +1879,10 @@
     "id": "Skarner",
     "name": "Skarner",
     "title": "the Primordial Sovereign",
+    "roles": [
+      "Top",
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "ixtal",
     "releaseYear": "2011",
@@ -1503,6 +1895,9 @@
     "id": "Smolder",
     "name": "Smolder",
     "title": "the Fiery Fledgling",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2024",
@@ -1515,6 +1910,9 @@
     "id": "Sona",
     "name": "Sona",
     "title": "Maven of the Strings",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2010",
@@ -1527,6 +1925,9 @@
     "id": "Soraka",
     "name": "Soraka",
     "title": "the Starchild",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "mount-targon",
     "releaseYear": "2009",
@@ -1539,6 +1940,9 @@
     "id": "Swain",
     "name": "Swain",
     "title": "the Noxian Grand General",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "noxus",
     "releaseYear": "2010",
@@ -1551,6 +1955,9 @@
     "id": "Sylas",
     "name": "Sylas",
     "title": "the Unshackled",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2019",
@@ -1563,6 +1970,9 @@
     "id": "Syndra",
     "name": "Syndra",
     "title": "the Dark Sovereign",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2012",
@@ -1575,6 +1985,9 @@
     "id": "TahmKench",
     "name": "Tahm Kench",
     "title": "The River King",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2015",
@@ -1587,6 +2000,9 @@
     "id": "Taliyah",
     "name": "Taliyah",
     "title": "the Stoneweaver",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "shurima",
     "releaseYear": "2016",
@@ -1599,6 +2015,9 @@
     "id": "Talon",
     "name": "Talon",
     "title": "the Blade's Shadow",
+    "roles": [
+      "ASSASSIN"
+    ],
     "partype": "MANA",
     "region": "noxus",
     "releaseYear": "2011",
@@ -1611,6 +2030,9 @@
     "id": "Taric",
     "name": "Taric",
     "title": "the Shield of Valoran",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "mount-targon",
     "releaseYear": "2009",
@@ -1623,6 +2045,9 @@
     "id": "Teemo",
     "name": "Teemo",
     "title": "the Swift Scout",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "bandle-city",
     "releaseYear": "2009",
@@ -1635,6 +2060,9 @@
     "id": "Thresh",
     "name": "Thresh",
     "title": "the Chain Warden",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "shadow-isles",
     "releaseYear": "2013",
@@ -1647,6 +2075,9 @@
     "id": "Tristana",
     "name": "Tristana",
     "title": "the Yordle Gunner",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "bandle-city",
     "releaseYear": "2009",
@@ -1659,6 +2090,9 @@
     "id": "Trundle",
     "name": "Trundle",
     "title": "the Troll King",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2010",
@@ -1671,6 +2105,9 @@
     "id": "Tryndamere",
     "name": "Tryndamere",
     "title": "the Barbarian King",
+    "roles": [
+      "Top"
+    ],
     "partype": "FURY",
     "region": "freljord",
     "releaseYear": "2009",
@@ -1683,6 +2120,10 @@
     "id": "TwistedFate",
     "name": "Twisted Fate",
     "title": "the Card Master",
+    "roles": [
+      "Mid",
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "bilgewater",
     "releaseYear": "2009",
@@ -1695,6 +2136,9 @@
     "id": "Twitch",
     "name": "Twitch",
     "title": "the Plague Rat",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2009",
@@ -1707,6 +2151,10 @@
     "id": "Udyr",
     "name": "Udyr",
     "title": "the Spirit Walker",
+    "roles": [
+      "Top",
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2009",
@@ -1719,6 +2167,9 @@
     "id": "Urgot",
     "name": "Urgot",
     "title": "the Dreadnought",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2010",
@@ -1731,6 +2182,9 @@
     "id": "Varus",
     "name": "Varus",
     "title": "the Arrow of Retribution",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2012",
@@ -1743,6 +2197,9 @@
     "id": "Vayne",
     "name": "Vayne",
     "title": "the Night Hunter",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2011",
@@ -1755,6 +2212,9 @@
     "id": "Veigar",
     "name": "Veigar",
     "title": "the Tiny Master of Evil",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "bandle-city",
     "releaseYear": "2009",
@@ -1767,6 +2227,9 @@
     "id": "Velkoz",
     "name": "Vel'Koz",
     "title": "the Eye of the Void",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "void",
     "releaseYear": "2014",
@@ -1779,6 +2242,9 @@
     "id": "Vex",
     "name": "Vex",
     "title": "the Gloomist",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "shadow-isles",
     "releaseYear": "2021",
@@ -1791,6 +2257,9 @@
     "id": "Vi",
     "name": "Vi",
     "title": "the Piltover Enforcer",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "piltover",
     "releaseYear": "2012",
@@ -1803,6 +2272,9 @@
     "id": "Viego",
     "name": "Viego",
     "title": "The Ruined King",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "NONE",
     "region": "shadow-isles",
     "releaseYear": "2021",
@@ -1815,6 +2287,9 @@
     "id": "Viktor",
     "name": "Viktor",
     "title": "the Herald of the Arcane",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2011",
@@ -1827,6 +2302,9 @@
     "id": "Vladimir",
     "name": "Vladimir",
     "title": "the Crimson Reaper",
+    "roles": [
+      "Mid"
+    ],
     "partype": "CRIMSON_RUSH",
     "region": "noxus",
     "releaseYear": "2010",
@@ -1839,6 +2317,9 @@
     "id": "Volibear",
     "name": "Volibear",
     "title": "the Relentless Storm",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "freljord",
     "releaseYear": "2011",
@@ -1851,6 +2332,9 @@
     "id": "Warwick",
     "name": "Warwick",
     "title": "the Uncaged Wrath of Zaun",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2009",
@@ -1863,6 +2347,9 @@
     "id": "MonkeyKing",
     "name": "Wukong",
     "title": "the Monkey King",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2011",
@@ -1875,6 +2362,9 @@
     "id": "Xayah",
     "name": "Xayah",
     "title": "the Rebel",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2017",
@@ -1887,6 +2377,10 @@
     "id": "Xerath",
     "name": "Xerath",
     "title": "the Magus Ascendant",
+    "roles": [
+      "Mid",
+      "Support"
+    ],
     "partype": "MANA",
     "region": "shurima",
     "releaseYear": "2011",
@@ -1899,6 +2393,9 @@
     "id": "XinZhao",
     "name": "Xin Zhao",
     "title": "the Seneschal of Demacia",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "MANA",
     "region": "demacia",
     "releaseYear": "2010",
@@ -1911,6 +2408,11 @@
     "id": "Yasuo",
     "name": "Yasuo",
     "title": "the Unforgiven",
+    "roles": [
+      "Top",
+      "Mid",
+      "Bot"
+    ],
     "partype": "FLOW",
     "region": "ionia",
     "releaseYear": "2013",
@@ -1923,6 +2425,10 @@
     "id": "Yone",
     "name": "Yone",
     "title": "the Unforgotten",
+    "roles": [
+      "Top",
+      "Mid"
+    ],
     "partype": "FLOW",
     "region": "ionia",
     "releaseYear": "2020",
@@ -1935,6 +2441,9 @@
     "id": "Yorick",
     "name": "Yorick",
     "title": "Shepherd of Souls",
+    "roles": [
+      "Top"
+    ],
     "partype": "MANA",
     "region": "shadow-isles",
     "releaseYear": "2011",
@@ -1947,6 +2456,9 @@
     "id": "Yunara",
     "name": "Yunara",
     "title": "the Unbroken Faith",
+    "roles": [
+      "MARKSMAN"
+    ],
     "partype": "MANA",
     "region": "ionia",
     "releaseYear": "2025",
@@ -1959,6 +2471,9 @@
     "id": "Yuumi",
     "name": "Yuumi",
     "title": "the Magical Cat",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "bandle-city",
     "releaseYear": "2019",
@@ -1971,6 +2486,9 @@
     "id": "Zac",
     "name": "Zac",
     "title": "the Secret Weapon",
+    "roles": [
+      "Jungle"
+    ],
     "partype": "HEALTH",
     "region": "zaun",
     "releaseYear": "2013",
@@ -1983,6 +2501,9 @@
     "id": "Zed",
     "name": "Zed",
     "title": "the Master of Shadows",
+    "roles": [
+      "Mid"
+    ],
     "partype": "ENERGY",
     "region": "ionia",
     "releaseYear": "2012",
@@ -1995,6 +2516,9 @@
     "id": "Zeri",
     "name": "Zeri",
     "title": "The Spark of Zaun",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2022",
@@ -2007,6 +2531,9 @@
     "id": "Ziggs",
     "name": "Ziggs",
     "title": "the Hexplosives Expert",
+    "roles": [
+      "Bot"
+    ],
     "partype": "MANA",
     "region": "zaun",
     "releaseYear": "2012",
@@ -2019,6 +2546,9 @@
     "id": "Zilean",
     "name": "Zilean",
     "title": "the Chronokeeper",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "Runeterra",
     "releaseYear": "2009",
@@ -2031,6 +2561,9 @@
     "id": "Zoe",
     "name": "Zoe",
     "title": "the Aspect of Twilight",
+    "roles": [
+      "Mid"
+    ],
     "partype": "MANA",
     "region": "mount-targon",
     "releaseYear": "2017",
@@ -2043,6 +2576,9 @@
     "id": "Zyra",
     "name": "Zyra",
     "title": "Rise of the Thorns",
+    "roles": [
+      "Support"
+    ],
     "partype": "MANA",
     "region": "ixtal",
     "releaseYear": "2012",

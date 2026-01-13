@@ -54,7 +54,7 @@ async function updateChampions() {
             // Meraki: "key": "Annie", "id": 1
             name: c.name,
             title: c.title,
-            roles: c.tags,
+            roles: c.roles || c.tags || [],
             partype: c.resource, // "MANA", "ENERGY" etc
 
             // New Fields
@@ -69,6 +69,11 @@ async function updateChampions() {
             // Ideally we fetch version, but this is safe for now.
         };
     });
+
+    // Debug Log
+    if (formattedChampions.length > 0) {
+        console.log("Debug First Champion Roles:", formattedChampions[0].name, formattedChampions[0].roles);
+    }
 
     // Ensure directory exists
     const dir = path.dirname(SAVE_PATH);
