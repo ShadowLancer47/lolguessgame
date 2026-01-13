@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL Who Am I?</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .hidden {
+            display: none !important;
+        }
+
+        .control-group {
+            margin: 15px 0;
+        }
+
+        label {
+            color: var(--hex-gold);
+            font-family: var(--font-heading);
+            margin-right: 10px;
+        }
+
+        select {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--hex-blue-dark);
+            color: var(--hex-gold-light);
+            padding: 10px;
+            font-size: 1rem;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="notification">Bildirim</div>
+
+    <div class="container">
+
+        <!-- LOGIN EKRANI -->
+        <div id="loginScreen" class="screen active">
+            <div class="hex-panel" style="text-align: center;">
+                <h1>LoL: Ben Kimim?</h1>
+                <p style="margin-bottom: 30px; color: #888;">Lobiye katıl ve Tahmin et!</p>
+
+                <div class="control-group">
+                    <input type="text" id="username" placeholder="Sihirdar Adı">
+                </div>
+                <div class="control-group">
+                    <input type="text" id="lobbyId" placeholder="ODA ADI (Örn: MID)" value="GENEL">
+                </div>
+
+                <br>
+                <button class="hex-btn primary" onclick="joinGame()">Lobiye Katıl</button>
+            </div>
+        </div>
+
+        <!-- LOBİ EKRANI -->
+        <div id="lobbyScreen" class="screen">
+            <div class="hex-panel">
+                <h2>Lobi: <span id="displayLobbyId" style="color: var(--hex-blue);"></span></h2>
+
+                <div id="hostControls" class="hidden"
+                    style="background: rgba(10, 200, 185, 0.1); padding: 15px; margin-bottom: 10px; border: 1px solid var(--hex-blue-dark);">
+                    <label>Tur Sayısı:</label>
+                    <select id="totalRounds">
+                        <option value="1">1 Tur</option>
+                        <option value="3" selected>3 Tur</option>
+                        <option value="5">5 Tur</option>
+                        <option value="10">10 Tur</option>
+                    </select>
+                </div>
+
+                <div id="lobbyList" style="margin: 20px 0; min-height: 100px;"></div>
+
+                <div style="text-align: center;">
+                    <button id="btnStartGame" class="hex-btn primary hidden" onclick="startGame()">Oyunu Başlat</button>
+                    <p id="msgWaiting" class="hidden">Host'un oyunu başlatması bekleniyor...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- OYUN EKRANI -->
+        <div id="gameScreen" class="screen">
+            <div class="row" style="display: flex; gap: 20px; flex-wrap: wrap;">
+
+                <!-- SOL: Oyun Alanı -->
+                <div style="flex: 2; min-width: 300px;">
+                    <div style="text-align: right; margin-bottom: 5px; color: #888;">
+                        Tur: <span id="roundIndicator">1/3</span>
+                    </div>
+                    <div class="hex-panel card-area" id="gameArea">
+                        <!-- JS ile doldurulacak -->
+                    </div>
+                </div>
+
+                <!-- SAĞ: Skor Tablosu -->
+                <div style="flex: 1; min-width: 250px;">
+                    <div class="hex-panel">
+                        <h3 style="text-align: center;">Puan Durumu</h3>
+                        <div id="scoreList"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SONUÇ EKRANI -->
+        <div id="resultScreen" class="screen">
+            <div class="hex-panel" style="text-align: center;">
+                <h1 id="resultTitle">Tur Bitti!</h1>
+                <div id="finalScores" style="margin: 30px 0;"></div>
+
+                <button id="btnNextRound" class="hex-btn primary hidden" onclick="startNextRound()">Sıradaki
+                    Tur</button>
+                <button id="btnNewGame" class="hex-btn hidden" onclick="location.reload()">Lobiye Dön</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/client.js"></script>
+
+</body>
+
+</html>

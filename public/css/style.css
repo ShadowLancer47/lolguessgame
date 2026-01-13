@@ -1,0 +1,287 @@
+:root {
+    --hex-gold: #c8aa6e;
+    --hex-gold-light: #f0e6d2;
+    --hex-gold-dark: #785a28;
+    --hex-blue: #0ac8b9;
+    --hex-blue-dark: #005a82;
+    --hex-dark-bg: #091428;
+    --hex-panel-bg: #0a1428;
+    --hex-border: #1e282d;
+
+    --font-heading: 'BeaufortforLOL', serif;
+    --font-body: 'Spiegel', sans-serif;
+}
+
+@font-face {
+    font-family: 'BeaufortforLOL';
+    src: url('https://lol-static.aligul.net/fonts/BeaufortforLOL-Bold.ttf') format('truetype');
+    /* Fallback if external fonts fail */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Fallback */
+    font-family: var(--font-body), sans-serif;
+    background-color: #010a13;
+    background-image: radial-gradient(circle at top, #091428 0%, #010a13 100%);
+    color: var(--hex-gold-light);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titles */
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading), serif;
+    color: var(--hex-gold);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0.5em 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Screen Management */
+.screen {
+    display: none;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.screen.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hextech Card/Panel */
+.hex-panel {
+    background: var(--hex-panel-bg);
+    border: 2px solid var(--hex-gold-dark);
+    position: relative;
+    padding: 2rem;
+    box-shadow: 0 0 15px rgba(200, 170, 110, 0.1);
+    margin-bottom: 2rem;
+}
+
+.hex-panel::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 1px solid var(--hex-gold);
+    z-index: -1;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Inputs */
+input[type="text"] {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--hex-blue-dark);
+    color: var(--hex-gold-light);
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: var(--hex-blue);
+    box-shadow: 0 0 10px rgba(10, 200, 185, 0.3);
+}
+
+/* Buttons */
+.hex-btn {
+    background: linear-gradient(to bottom, #1e282d, #0a0a0c);
+    border: 2px solid var(--hex-gold-dark);
+    color: var(--hex-gold);
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.hex-btn:hover {
+    border-color: var(--hex-gold);
+    color: var(--hex-gold-light);
+    box-shadow: 0 0 15px rgba(200, 170, 110, 0.4);
+    text-shadow: 0 0 5px rgba(200, 170, 110, 0.8);
+}
+
+.hex-btn.primary {
+    border-color: var(--hex-blue-dark);
+    color: var(--hex-blue);
+}
+
+.hex-btn.primary:hover {
+    border-color: var(--hex-blue);
+    color: #fff;
+    box-shadow: 0 0 15px rgba(10, 200, 185, 0.6);
+}
+
+.hex-btn.danger {
+    border-color: #a02c2c;
+    color: #ff4d4d;
+}
+
+.hex-btn.danger:hover {
+    border-color: #ff0000;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+}
+
+/* Game Area */
+.card-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+img.champ-img {
+    width: 250px;
+    height: auto;
+    border: 2px solid var(--hex-gold);
+    box-shadow: 0 0 20px rgba(200, 170, 110, 0.3);
+    margin: 20px 0;
+}
+
+.big-text {
+    font-size: 2rem;
+    color: var(--hex-blue);
+    margin-bottom: 20px;
+    font-family: var(--font-heading);
+    text-shadow: 0 0 10px rgba(10, 200, 185, 0.5);
+}
+
+/* Scoreboard */
+.scoreboard {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.player-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    margin-bottom: 5px;
+    border-left: 3px solid transparent;
+}
+
+.player-row.active-turn {
+    background: linear-gradient(90deg, rgba(10, 200, 185, 0.2), transparent);
+    border-left-color: var(--hex-blue);
+}
+
+.player-row.finished {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+/* Notification */
+#notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(10, 20, 40, 0.95);
+    border: 1px solid var(--hex-gold);
+    color: var(--hex-gold);
+    padding: 15px 40px;
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    z-index: 1000;
+    display: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+}
+
+/* Autocomplete Wrapper */
+.autocomplete-container {
+    position: relative;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.autocomplete-input {
+    width: 100%;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid var(--hex-gold-dark);
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: var(--hex-panel-bg);
+    border-radius: 0 0 5px 5px;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(20, 20, 30, 0.95);
+    border-bottom: 1px solid rgba(200, 170, 110, 0.1);
+    color: #fff;
+    text-align: left;
+    transition: background 0.2s;
+}
+
+.autocomplete-items div:hover {
+    background-color: var(--hex-blue-dark);
+    color: var(--hex-gold);
+}
+
+.autocomplete-active {
+    background-color: var(--hex-blue-dark) !important;
+    color: var(--hex-gold) !important;
+}
+
+/* Scrollbar tweaks */
+.autocomplete-items::-webkit-scrollbar {
+    width: 6px;
+}
+
+.autocomplete-items::-webkit-scrollbar-track {
+    background: #111;
+}
+
+.autocomplete-items::-webkit-scrollbar-thumb {
+    background: var(--hex-gold-dark);
+    border-radius: 3px;
+}
